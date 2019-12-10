@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/F1"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registro Medico"
+            android:layout_gravity="center|top"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="35dp"
+            />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:id="@+id/nombre"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"
+        android:id="@+id/telefono"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Medico"
+        android:id="@+id/medico"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hora de consulta"
+        android:id="@+id/HC"
+        android:layout_marginTop="55dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="fecha de consulta"
+        android:id="@+id/FC"
+        android:layout_marginTop="55dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center|bottom"
+        android:id="@+id/btn"/>
+
+
+
+
+
+
+</LinearLayout>
